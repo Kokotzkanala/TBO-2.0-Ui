@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>This image is fake 😎</title>
+  <meta charset="UTF-8" />
+  <title>Funny Glitched Meme</title>
 
-  <!-- Open Graph tag for Discord preview -->
-  <meta property="og:title" content="Funny Meme">
-  <meta property="og:description" content="Check out this hilarious meme! 😂">
-  <meta property="og:image" content="https://your-site.com/fake-image.jpg">
+  <!-- Open Graph metadata for Discord -->
+  <meta property="og:title" content="This meme is wild 😂" />
+  <meta property="og:description" content="Click to see full meme... if you dare 😈" />
+  <meta property="og:image" content="https://yourdomain.com/glitched.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
 
-  <!-- Optional -->
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- Twitter preview (optional) -->
+  <meta name="twitter:card" content="summary_large_image" />
 </head>
 <body>
-  <h1>This image is broken on purpose 😏</h1>
-  <img src="fake-image.jpg" alt="broken" />
+  <h1>The image failed to load 👻</h1>
+  <img src="glitched.jpg" alt="broken image" />
 </body>
 </html>
