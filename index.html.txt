@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>This image is fake 😎</title>
+
+  <!-- Open Graph tag for Discord preview -->
+  <meta property="og:title" content="Funny Meme">
+  <meta property="og:description" content="Check out this hilarious meme! 😂">
+  <meta property="og:image" content="https://your-site.com/fake-image.jpg">
+
+  <!-- Optional -->
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <h1>This image is broken on purpose 😏</h1>
+  <img src="fake-image.jpg" alt="broken" />
+</body>
+</html>
